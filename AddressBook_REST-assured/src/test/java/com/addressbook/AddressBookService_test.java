@@ -27,8 +27,8 @@ public class AddressBookService_test {
 	public void givenpayrollData_whenreterived_shouldMatchtheCount() {
 		AddressBookData[] dataArray = getAddressList();
 		AddressBookService addressbookservice = new AddressBookService(Arrays.asList(dataArray));
-	    int entries = addressbookservice.countEntries();
-		assertEquals(4, entries);
+	        int entries = addressbookservice.countEntries();
+		assertEquals(7, entries);
 	}
 
 }

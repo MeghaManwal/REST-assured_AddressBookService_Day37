@@ -43,5 +43,25 @@ public class AddressBooktestNG {
 		      statusCode(201).
 		      log().all();
 	}
+	
+	@Test
+	public void updateExistingRecord_shouldReturn_200statusCode() {
+		JSONObject request = new JSONObject();
+		request.put("City",  "Venice");
+
+		baseURI ="http://localhost";
+		port = 3000;
+
+		given().
+		       contentType(ContentType.JSON).
+		       accept(ContentType.JSON).
+		       header("Content-Type", "application/json").
+		       body(request.toJSONString()).
+		when().
+		      patch("/AddressBook/4").
+		then().
+		      statusCode(200).
+		      log().all();	
+	}
 
 }
