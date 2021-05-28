@@ -44,24 +44,6 @@
       "PhoneNumber": "6701234567",
       "City": "New Caledonia",
       "id": 5
-    },
-    {
-      "firstName": "Nia",
-      "lastName": "James",
-      "EmailId": "Njames@orkut.com",
-      "Address": "Seal Road",
-      "PhoneNumber": "4501345682",
-      "City": "Las Vegas",
-      "id": 6
-    },
-    {
-      "firstName": "Robert",
-      "lastName": "Hook",
-      "EmailId": "robert345@outlook.com",
-      "Address": "Patt Hills",
-      "PhoneNumber": "8145289903",
-      "City": "Indiana",
-      "id": 7
     }
   ]
 }

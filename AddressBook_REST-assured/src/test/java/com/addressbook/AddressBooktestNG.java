@@ -63,5 +63,24 @@ public class AddressBooktestNG {
 		      statusCode(200).
 		      log().all();	
 	}
+	
+	@DataProvider(name = "datafordelete")
+	public Object[] dataforDelete() {
+		 return new Object[] {
+			6,7
+		 };	
+	}
+	
+	@Test(dataProvider ="datafordelete")
+	public void deleteDatafromExistingRecord_shouldReturn_200statusCode(int id) {
+		  baseURI ="http://localhost";
+		  port = 3000;
+		
+		 when().
+		       delete("/AddressBook/"+id).
+		 then().
+		       statusCode(200);
+		
+	}	
 
 }

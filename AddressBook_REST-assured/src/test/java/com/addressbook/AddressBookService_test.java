@@ -28,7 +28,7 @@ public class AddressBookService_test {
 		AddressBookData[] dataArray = getAddressList();
 		AddressBookService addressbookservice = new AddressBookService(Arrays.asList(dataArray));
 	        int entries = addressbookservice.countEntries();
-		assertEquals(7, entries);
+		assertEquals(5, entries);
 	}
 
 }
