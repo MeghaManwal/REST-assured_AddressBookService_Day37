@@ -1,0 +1,67 @@
+{
+  "AddressBook": [
+    {
+      "firstName": "Mary",
+      "lastName": "James",
+      "Address": "West Villa",
+      "City": "New Caledonia",
+      "PhoneNumber": "9234561084",
+      "EmailId": "mary@gmail.com",
+      "id": 1
+    },
+    {
+      "firstName": "Lily",
+      "lastName": "Cooper",
+      "Address": "Cross Oxford",
+      "City": "Missouri",
+      "PhoneNumber": "9015561084",
+      "EmailId": "lilyCooper@gmail.com",
+      "id": 2
+    },
+    {
+      "firstName": "Mark",
+      "lastName": "Pitt",
+      "Address": "Jackson Road",
+      "City": "California",
+      "PhoneNumber": "9239103784",
+      "EmailId": "mark45@outlook.com",
+      "id": 3
+    },
+    {
+      "firstName": "Nick",
+      "lastName": "Jonas",
+      "Address": "East Hill",
+      "City": "Kentucky",
+      "PhoneNumber": "921601084",
+      "EmailId": "nick456@orkut.com",
+      "id": 4
+    },
+    {
+      "firstName": "Rizvaan",
+      "lastName": "Khan",
+      "EmailId": "rizvaan@gmail.com",
+      "Address": "Graham Cross",
+      "PhoneNumber": "6701234567",
+      "City": "New Caledonia",
+      "id": 5
+    },
+    {
+      "firstName": "Nia",
+      "lastName": "James",
+      "EmailId": "Njames@orkut.com",
+      "Address": "Seal Road",
+      "PhoneNumber": "4501345682",
+      "City": "Las Vegas",
+      "id": 6
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Hook",
+      "EmailId": "robert345@outlook.com",
+      "Address": "Patt Hills",
+      "PhoneNumber": "8145289903",
+      "City": "Indiana",
+      "id": 7
+    }
+  ]
+}
